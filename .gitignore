@@ -1,16 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+firebase.js
 # dependencies
-/node_modules
+**/node_modules
 /.pnp
+**/build
 .pnp.js
-
+settings.json
 # testing
 /coverage
-
+**/build
 # production
-/build
-
+**/build/
+**/.idea
+cloud-function/public
 # misc
 .DS_Store
 .env.local
@@ -81,3 +83,4 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
